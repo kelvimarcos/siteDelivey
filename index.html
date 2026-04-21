@@ -1,151 +1,308 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Burguer House — Hambúrguer Artesanal no Delivery</title>
+    <meta name="description"
+        content="Hambúrgueres artesanais feitos com ingredientes frescos e blend de carne exclusivo, entregues na sua porta em até 40 minutos. Peça agora pelo WhatsApp!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <a href="#" class="logo">🍔 Devburguer</a>
-        <nav>
-            <a href="#">Início</a>
-            <a href="#cardapio">Cardápio</a>
-            <a href="#sobre">Sobre</a>
+
+    <!-- ===== HEADER ===== -->
+    <header id="topo">
+        <a href="#topo" class="logo">🍔 Burguer House</a>
+
+        <!-- Menu desktop -->
+        <nav class="nav-desktop" aria-label="Menu principal">
+            <a href="#topo">Início</a>
+            <a href="#menu">Cardápio</a>
+            <a href="#sobre">Nossa História</a>
             <a href="#contato">Contato</a>
         </nav>
-        <a href="#" class="btn">Peça Agora</a>
+
+        <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" class="btn" id="header-cta">Pedir Agora</a>
+
+        <!-- Botão hamburguer (mobile) -->
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false"
+            aria-controls="mobile-menu">
+            <span></span><span></span><span></span>
+        </button>
     </header>
 
+    <!-- Menu mobile -->
+    <nav class="nav-mobile" id="mobile-menu" aria-hidden="true">
+        <a href="#topo" class="mobile-link">Início</a>
+        <a href="#menu" class="mobile-link">Cardápio</a>
+        <a href="#sobre" class="mobile-link">Nossa História</a>
+        <a href="#contato" class="mobile-link">Contato</a>
+        <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" class="btn btn-mobile-cta">Pedir pelo
+            WhatsApp</a>
+    </nav>
+
+
+    <!-- ===== HERO ===== -->
     <section id="home" class="hero-wrapper">
         <article class="hero">
-            <div>
-                <h1>O melhor hamburguer da cidade</h1>
-                <p>Carne suculenta, ingredientes frescos e aquele pão artesanal que desmancha. A gente leva a perfeição em forma de hambúrguer até você!</p>
-                <nav class="hero-buttons">
-                    <a href="#" id="cardapio" class="btn">Ver cardápio</a>
-                    <a href="#" class="btn btn-outline">WhatsApp</a>
+            <div class="hero-content">
+                <span class="hero-badge">🔥 #1 em delivery da região</span>
+                <h1>O hambúrguer artesanal que você merecia conhecer</h1>
+                <p>Carne selecionada, pão de brioche assado no dia e molhos autorais feitos aqui. Sabor de hamburgeria
+                    premium, no conforto da sua casa.</p>
+
+                <nav class="hero-buttons" aria-label="Ações principais">
+                    <a href="#menu" class="btn" id="ver-cardapio-btn">Ver Cardápio</a>
+                    <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" class="btn btn-outline"
+                        id="whatsapp-hero-btn">💬 WhatsApp</a>
                 </nav>
 
-                <ul class="hero-stats">
-                    <li><strong>+500</strong>Clientes felizes</li>
-                    <li><strong>+4.9</strong>Avaliação</li>
-                    <li><strong>40min</strong>ou seu dinheiro de volta</li>
+                <ul class="hero-stats" aria-label="Números da casa">
+                    <li>
+                        <strong>+500</strong>
+                        <span>Clientes felizes</span>
+                    </li>
+                    <li>
+                        <strong>4.9★</strong>
+                        <span>Avaliação média</span>
+                    </li>
+                    <li>
+                        <strong>40 min</strong>
+                        <span>ou devolvemos</span>
+                    </li>
                 </ul>
-
             </div>
 
-            <img src="img/amirali-mirhashemian-JqG9YJWy6eI-unsplash.jpg" alt="hamburguer.png">
-
+            <div class="hero-image-wrapper">
+                <img src="img/amirali-mirhashemian-JqG9YJWy6eI-unsplash.jpg"
+                    alt="Hambúrguer artesanal da Burguer House com queijo derretido e bacon crocante">
+            </div>
         </article>
-
     </section>
 
-    <section id="cardapio" class="cardapio">
 
-        <h2>Nosso cardápio</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur.</p>
-
+    <!-- ===== CARDÁPIO ===== -->
+    <section id="menu" class="cardapio">
+        <div class="section-header">
+            <h2>Nosso Cardápio</h2>
+            <p>Cada hambúrguer é uma obra de arte — feito na hora, com ingredientes que você consegue pronunciar.</p>
+        </div>
 
         <ul class="menu-grid">
-            <li>
-                <img src="img/amirali-mirhashemian-MNHQqLNEvow-unsplash.jpg" alt="haburguer.png">
-                <span class="badge">Mais vendido</span>
-                <h3>🍔O Clássico Imbatível</h3>
-                <p>Pão de brioche tostado na manteiga, 160g de carne 100% bovina, queijo cheddar derretido e a nossa maionese especial de alho. Simplesmente perfeito!</p>
-                <strong>R$29,90</strong>
-                <a href="#" class="btn">Pedir</a>
-
-            </li>
-            
-            
-            <li>
-                <img src="img/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg" alt="haburguer.png">
-                <span class="badge">Mais vendido</span>
-                <h3>🍔Smash Duplo Cheddar</h3>
-                <p>Dois smash burgers prensados na chapa, 4x queijo cheddar em fatia, picles artesanal e o toque final do nosso molho secreto. Impossível comer um só!</p>
-                <strong>R$29,90</strong>
-                <a href="#" class="btn">Pedir</a>
-
+            <li class="menu-card">
+                <div class="menu-card-img-wrapper">
+                    <img src="img/amirali-mirhashemian-MNHQqLNEvow-unsplash.jpg"
+                        alt="O Clássico Imbatível — hambúrguer com queijo cheddar e maionese de alho">
+                    <span class="badge">🏆 Mais Pedido</span>
+                </div>
+                <div class="menu-card-body">
+                    <h3>O Clássico Imbatível</h3>
+                    <p>Pão de brioche tostado na manteiga, 160 g de carne 100% bovina, queijo cheddar cremoso e nossa
+                        maionese de alho artesanal. Simples e irresistível.</p>
+                    <footer class="menu-card-footer">
+                        <strong>R$ 29,90</strong>
+                        <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" class="btn"
+                            id="pedir-classico">Pedir</a>
+                    </footer>
+                </div>
             </li>
 
-             <li>
-                <img src="img/eiliv-aceron-pu6b4yIlQF4-unsplash.jpg" alt="haburguer.png">
-                <span class="badge">Mais vendido</span>
-                <h3>🍔O Defumado com Bacon</h3>
-                <p>Para quem ama sabor intenso: 180g de blend exclusivo, bacon crocante, cebola caramelizada no shoyu e barbecue defumado caseiro. Seu paladar vai agradecer.</p>
-                <strong>R$29,90</strong>
-                <a href="#" class="btn">Pedir</a>
-
+            <li class="menu-card">
+                <div class="menu-card-img-wrapper">
+                    <img src="img/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg"
+                        alt="Smash Duplo Cheddar — dois smash burgers com quatro fatias de cheddar">
+                    <span class="badge">🔥 Top Semana</span>
+                </div>
+                <div class="menu-card-body">
+                    <h3>Smash Duplo Cheddar</h3>
+                    <p>Dois smash burgers prensados na chapa, quatro fatias de cheddar fundido, picles artesanal e nosso
+                        molho secreto exclusivo. É impossível comer só um.</p>
+                    <footer class="menu-card-footer">
+                        <strong>R$ 34,90</strong>
+                        <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" class="btn"
+                            id="pedir-smash">Pedir</a>
+                    </footer>
+                </div>
             </li>
-             <li>
-                <img src="img/jon-parry-4A9IELfRdwE-unsplash.jpg" alt="haburguer.png">
-                <span class="badge">Mais vendido</span>
-                <h3>🍔Frango Crocante Crispy</h3>
-                <p>Filé de frango empanado na panko, salada fresca, tomate e nosso molho de mostarda e mel refrescante. Leve na consciência, pesado no sabor.</p>
-                <strong>R$29,90</strong>
-                <a href="#" class="btn">Pedir</a>
 
+            <li class="menu-card">
+                <div class="menu-card-img-wrapper">
+                    <img src="img/eiliv-aceron-pu6b4yIlQF4-unsplash.jpg"
+                        alt="O Defumado com Bacon — blend exclusivo com bacon e cebola caramelizada">
+                    <span class="badge">💨 Sabor Intenso</span>
+                </div>
+                <div class="menu-card-body">
+                    <h3>O Defumado com Bacon</h3>
+                    <p>180 g de blend especial, bacon crocante, cebola caramelizada no shoyu e barbecue defumado
+                        caseiro. Para quem não faz concessões no sabor.</p>
+                    <footer class="menu-card-footer">
+                        <strong>R$ 36,90</strong>
+                        <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" class="btn"
+                            id="pedir-defumado">Pedir</a>
+                    </footer>
+                </div>
             </li>
+
+            <li class="menu-card">
+                <div class="menu-card-img-wrapper">
+                    <img src="img/jon-parry-4A9IELfRdwE-unsplash.jpg"
+                        alt="Frango Crocante Crispy — filé de frango empanado na panko com mostarda e mel">
+                    <span class="badge">🍗 Opção Leve</span>
+                </div>
+                <div class="menu-card-body">
+                    <h3>Frango Crocante Crispy</h3>
+                    <p>Filé de frango empanado na panko, alface fresca, tomate cereja e molho de mostarda e mel
+                        refrescante. Leveza e sabor que surpreendem.</p>
+                    <footer class="menu-card-footer">
+                        <strong>R$ 29,90</strong>
+                        <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" class="btn"
+                            id="pedir-frango">Pedir</a>
+                    </footer>
+                </div>
+            </li>
+
+            <li class="menu-card">
+                <div class="menu-card-img-wrapper">
+                    <img src="img/amirali-mirhashemian-JqG9YJWy6eI-unsplash.jpg"
+                        alt="Trufado da Casa — hambúrguer com molho trufado e cogumelos salteados">
+                    <span class="badge">✨ Chef Recomenda</span>
+                </div>
+                <div class="menu-card-body">
+                    <h3>Trufado da Casa</h3>
+                    <p>200 g de blend premium, molho trufado artesanal, cogumelos paris salteados na manteiga, rúcula
+                        fresca e queijo brie derretido. Sofisticação pura.</p>
+                    <footer class="menu-card-footer">
+                        <strong>R$ 42,90</strong>
+                        <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" class="btn"
+                            id="pedir-trufado">Pedir</a>
+                    </footer>
+                </div>
+            </li>
+
+            <li class="menu-card">
+                <div class="menu-card-img-wrapper">
+                    <img src="img/giorgi-iremadze-5ZR4DxAG3RQ-unsplash.jpg"
+                        alt="Duplo Burguer Especial — dois hambúrgueres com todos os acompanhamentos">
+                    <span class="badge">🍔 Combo Fome</span>
+                </div>
+                <div class="menu-card-body">
+                    <h3>Duplo Especial</h3>
+                    <p>Dois blends de 180 g, cheddar duplo, bacon em tiras, cebola crispy, alface americana e maionese
+                        da casa. Para matar a fome de verdade.</p>
+                    <footer class="menu-card-footer">
+                        <strong>R$ 44,90</strong>
+                        <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" class="btn"
+                            id="pedir-duplo">Pedir</a>
+                    </footer>
+                </div>
+            </li>
+
         </ul>
-
-   
-           
-      
-        
     </section>
 
-    
-    <section id="sobre" class="sobre" >
 
-        <img src="img/amirali-mirhashemian-JqG9YJWy6eI-unsplash.jpg" alt="restaurant.png">
-        <article>
-            <h2>Nossa história</h2>
-            <p>Tudo começou com uma ideia simples: elevar o conceito de hambúrguer artesanal no delivery. Para nós, cada pedido é a chance de entregar o sabor autêntico e a qualidade que você merece, sem sair de casa.</p>
-            <ul>
-        
-                <li><strong>🍔Blend de Carne Exclusivo</strong> - Usamos apenas 100% de carne Bovina selecionada.</li>
-                <li><strong>🍞 Pão Artesanal e Fresco</strong> - Recebemos nossos pães de brioche de uma padaria local parceira.</li>
-                <li><strong>🌶️ Molhos Autorais e Secretos</strong> - Cada molho é feito na casa, com receitas exclusiva.</li>
+    <!-- ===== SOBRE ===== -->
+    <section id="sobre" class="sobre">
+        <div class="sobre-img-wrapper">
+            <img src="img/giorgi-iremadze-5ZR4DxAG3RQ-unsplash.jpg"
+                alt="Interior da Burguer House — ambiente aconchegante e moderno">
+        </div>
+        <article class="sobre-content">
+            <span class="section-tag">Nossa História</span>
+            <h2>Feito com paixão. Entregue com orgulho.</h2>
+            <p>Tudo começou com uma ideia simples: levar um hambúrguer de verdade até quem merece. Desde o primeiro dia,
+                cada pedido é tratado como se fosse para a família — com ingredientes selecionados, preparo cuidadoso e
+                o compromisso de nunca decepcionar.</p>
+
+            <ul class="sobre-diferenciais">
+                <li>
+                    <span class="icon-pill">🥩</span>
+                    <div>
+                        <strong>Blend de Carne Exclusivo</strong>
+                        <p>100% carne bovina selecionada, moída diariamente para garantir suculência e sabor.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="icon-pill">🍞</span>
+                    <div>
+                        <strong>Pão Artesanal e Fresco</strong>
+                        <p>Brioche produzido por uma padaria local parceira e entregue todos os dias pela manhã.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="icon-pill">🌶️</span>
+                    <div>
+                        <strong>Molhos Autorais e Secretos</strong>
+                        <p>Cada molho é elaborado aqui, com receitas únicas que você não vai encontrar em nenhum outro
+                            lugar.</p>
+                    </div>
+                </li>
             </ul>
         </article>
-
     </section>
 
+
+    <!-- ===== CTA ===== -->
     <section id="cta" class="cta">
-        <h2>Bateu a fome?</h2>
-        <p>Faça seu pedido agora e receba em casa!</p>
-        <a href="#home">📱 Pedir pelo WhatsApp</a>
+        <div class="cta-inner">
+            <h2>Bateu a fome?</h2>
+            <p>Faça seu pedido agora e receba em casa em até 40 minutos — ou devolvemos seu dinheiro.</p>
+            <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" class="btn btn-light"
+                id="cta-whatsapp">📱 Pedir pelo WhatsApp</a>
+        </div>
     </section>
 
+
+    <!-- ===== FOOTER ===== -->
     <footer id="contato">
-    <section>
-        <h3>🍔 BURGUER HOUSE</h3>
-        <p>Qualidade que você pede em casa.</p>
-    </section>
-    
-    <section>
-        <h3>CARDÁPIO COMPLETO</h3>
-        <p>Smash Burgers</p> 
-      
-    </section>
-    
-    <section>
-        <h3>AJUDA AO CLIENTE</h3>
-        <p>Perguntas Frequentes (FAQ)</p> 
-      
-    </section>
-    
-    <section>
-        <h3>FALE CONOSCO</h3>
-        <p>WhatsApp (Link Direto)</p>
-        
-    </section>
+        <div class="footer-grid">
+            <section class="footer-brand">
+                <h3>🍔 Burguer House</h3>
+                <p>Qualidade artesanal, entregue na sua porta.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram da Burguer House" title="Instagram">📸 Instagram</a>
+                    <a href="#" aria-label="Facebook da Burguer House" title="Facebook">👍 Facebook</a>
+                </div>
+            </section>
 
-    <p class="copy">© 2025 - Burguer House</p>
-</footer>
+            <section class="footer-section">
+                <h4>Cardápio</h4>
+                <ul>
+                    <li><a href="#menu">Smash Burgers</a></li>
+                    <li><a href="#menu">Clássicos</a></li>
+                    <li><a href="#menu">Frango Crispy</a></li>
+                    <li><a href="#menu">Combos</a></li>
+                </ul>
+            </section>
 
+            <section class="footer-section">
+                <h4>Ajuda ao Cliente</h4>
+                <ul>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                    <li><a href="#">Política de Entrega</a></li>
+                    <li><a href="#">Acompanhar Pedido</a></li>
+                </ul>
+            </section>
 
+            <section class="footer-section">
+                <h4>Fale Conosco</h4>
+                <ul>
+                    <li><a href="https://wa.me/5500000000000" target="_blank" rel="noopener">💬 WhatsApp</a></li>
+                    <li><a href="mailto:contato@burguerhouse.com.br">✉️ E-mail</a></li>
+                    <li><a href="#">📍 Ver no Mapa</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <p class="copy">© 2025 Burguer House · Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
