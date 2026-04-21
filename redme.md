@@ -7,21 +7,10 @@ Projeto do Dev Club para aprimoramento de interfaces web.
 
 <br>
 
-## 🚀 Destaques
-
-Design Atraente: Layout moderno com paleta de cores branco, laranja e preto, gradientes e efeitos visuais. <br>
-Experiência Otimizada: Navegação intuitiva com smooth scroll, CTAs claras e prova social. <br>
-Cardápio Detalhado: Apresentação de hambúrgueres com imagens, descrições, preços e selos de destaque. <br>
-Diferenciais: Seção "Nossa História" com foco em blend exclusivo, pão artesanal e molhos autorais. <br>
-Responsividade: Adaptação a diferentes tamanhos de tela (desktop e mobile). <br>
-
-<br>
-<br>
-
 ## 🛠️ Tecnologias
 
-HTML5: Estrutura semântica.
-CSS3: Estilização (flexbox, gradientes, efeitos).
+HTML5: Estrutura semântica. <br>
+CSS3: Estilização (flexbox, gradientes, efeitos). <br>
 JavaScript: Interatividade (smooth scroll).
 
 <br>
@@ -29,8 +18,8 @@ JavaScript: Interatividade (smooth scroll).
 
 ## 📖 Aprendizados
 
-Criação de layouts UI/UX modernos.
-Responsividade e hierarquia visual.
+Criação de layouts UI/UX modernos. <br>
+Responsividade e hierarquia visual. <br>
 Efeitos visuais e organização de projetos front-end.
 
 <br>
@@ -38,7 +27,7 @@ Efeitos visuais e organização de projetos front-end.
 
 ## ⚠️ Observações
 
-Projeto educacional do Dev Club.
+Projeto educacional do Dev Club. <br>
 Foco em design e experiência do usuário.
 
 <br>
@@ -52,9 +41,10 @@ Foco em design e experiência do usuário.
 <br>
 
 ## 📌 Próximos Passos
-Otimização mobile.
-Animações avançadas (ex: GSAP).
-Migração para React.
+
+Otimização mobile. <br>
+Animações avançadas (ex: GSAP). <br>
+Migração para React. <br>
 Página de produtos dinâmica.
 
 <br>
