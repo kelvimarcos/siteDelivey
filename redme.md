@@ -10,8 +10,8 @@ Projeto do Dev Club para aprimoramento de interfaces web.
 ## 🚀 Destaques
 
 Design Atraente: Layout moderno com paleta de cores branco, laranja e preto, gradientes e efeitos visuais. <br>
-Experiência Otimizada: Navegação intuitiva com smooth scroll, CTAs claras e prova social (500+ clientes, 4.9+ avaliação, 40 min entrega).<br>
-Cardápio Detalhado: Apresentação de hambúrgueres com imagens, descrições, preços e selos de destaque ("Mais Pedido", "Top Semana"). <br>
+Experiência Otimizada: Navegação intuitiva com smooth scroll, CTAs claras e prova social. <br>
+Cardápio Detalhado: Apresentação de hambúrgueres com imagens, descrições, preços e selos de destaque. <br>
 Diferenciais: Seção "Nossa História" com foco em blend exclusivo, pão artesanal e molhos autorais. <br>
 Responsividade: Adaptação a diferentes tamanhos de tela (desktop e mobile). <br>
 
