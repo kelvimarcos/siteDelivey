@@ -35,11 +35,18 @@ Foco em design e experiência do usuário.
 
 ## 🌐 Acesse o Projeto
 
-👉 Link para o Projeto: https://raw.githubusercontent.com/kelvimarcos/siteDelivey/main/video/capturaDeTela.mp4
+👉 Link para o Projeto: 
 (Substitua pelo URL de deploy)
 
 <br>
 <br>
+
+## 📸 Capturas de Tela
+
+<video src="https://raw.githubusercontent.com/kelvimarcos/siteDelivey/main/video/capturaDeTela.mp4" controls width="600"></video>
+
+
+
 
 ## 📌 Próximos Passos
 
