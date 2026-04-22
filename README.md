@@ -51,6 +51,11 @@ Foco em design e experiência do usuário.
 <br>
 
 
+## 🎬 Demonstração do Projeto
+
+[![Preview do projeto](video/capturaDeTela.gif)](video/videoTela.mp4)
+
+
 ## 📌 Próximos Passos
 
 Otimização mobile. <br>
