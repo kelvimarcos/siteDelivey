@@ -43,6 +43,11 @@ Foco em design e experiência do usuário.
 
 ## 📸 Capturas de Tela
 
+<img src="imgTelas/tela1.png" width="700">
+<img src="imgTelas/tela2.png" width="700">
+<img src="imgTelas/tela4.png" width="700">
+<img src="imgTelas/tela5.png" width="700">
+
 👉 [Assistir vídeo completo](https://raw.githubusercontent.com/kelvimarcos/siteDelivey/main/video/videoTela.mp4)
 
 <br>
