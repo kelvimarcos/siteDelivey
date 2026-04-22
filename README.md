@@ -50,10 +50,6 @@ Foco em design e experiência do usuário.
 <br>
 <br>
 
-## 🎬 Demonstração do Projeto
-
-[![Preview do projeto](video/capturaDeTela.gif)](https://github.com/kelvimarcos/siteDelivey/blob/main/video/capturaDeTela.gif)
-
 ## 📌 Próximos Passos
 
 Otimização mobile. <br>
