@@ -42,11 +42,9 @@ Foco em design e experiência do usuário.
 <br>
 
 ## 📸 Capturas de Tela
+## 🎥 Demonstração do Projeto
 
-![Preview](https://raw.githubusercontent.com/kelvimarcos/siteDelivey/main/video/capturaDeTela.gif)
-## 📸 Demonstração do Projeto
-
-[![Preview](https://raw.githubusercontent.com/kelvimarcos/siteDelivey/main/video/capturaDeTela.gif)](https://raw.githubusercontent.com/kelvimarcos/siteDelivey/main/video/capturaDeTela.mp4)
+[![Preview do projeto](https://raw.githubusercontent.com/kelvimarcos/siteDelivey/main/video/capturaDeTela.gif)](https://raw.githubusercontent.com/kelvimarcos/siteDelivey/main/video/capturaDeTela.mp4)
 
 <br>
 <br>
