@@ -50,7 +50,7 @@ Foco em design e experiência do usuário.
 <br>
 <br>
 
-[Assistir vídeo completo](https://raw.githubusercontent.com/kelvimarcos/siteDelivey/main/video/capturaDeTela.gif)
+[![Preview do projeto](video/capturaDeTela.gif)
 
 ## 📌 Próximos Passos
 
