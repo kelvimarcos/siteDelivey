@@ -50,11 +50,7 @@ Foco em design e experiência do usuário.
 <br>
 <br>
 
-
-## 🎬 Demonstração do Projeto
-
-[![Preview do projeto](video/capturaDeTela.gif)](video/videoTela.mp4)
-
+[Assistir vídeo completo](https://raw.githubusercontent.com/kelvimarcos/siteDelivey/main/video/capturaDeTela.gif)
 
 ## 📌 Próximos Passos
 
