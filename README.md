@@ -35,7 +35,7 @@ Foco em design e experiência do usuário.
 
 ## 🌐 Acesse o Projeto
 
-👉 Link para o Projeto: [https://kelvimarcos.github.io/siteDelivey/](https://kelvimarcos.github.io/siteDelivey/) 
+👉 Link para o Projeto: [https://kelvimarcos.github.io/siteDelivey/](https://kelvimarcos.github.io/siteDelivey/) <br>
 (clique aqui ou cole em seu navegador para acessar o projeto)
 
 <br>
