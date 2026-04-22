@@ -35,21 +35,18 @@ Foco em design e experiência do usuário.
 
 ## 🌐 Acesse o Projeto
 
-👉 Link para o Projeto: 
-(Substitua pelo URL de deploy)
+👉 Link para o Projeto: [https://kelvimarcos.github.io/siteDelivey/](https://kelvimarcos.github.io/siteDelivey/) 
+(clique aqui ou cole em seu navegador para acessar o projeto)
 
 <br>
 <br>
 
 ## 📸 Capturas de Tela
 
-![Preview](video/capturaDeTela.gif)
-
-👉 [Assistir vídeo completo](https://raw.githubusercontent.com/kelvimarcos/siteDelivey/main/video/capturaDeTela.mp4)
+👉 [Assistir vídeo completo](https://raw.githubusercontent.com/kelvimarcos/siteDelivey/main/video/videoTela.mp4)
 
 <br>
 <br>
-
 
 ## 📌 Próximos Passos
 
