@@ -6,6 +6,18 @@ Projeto do Dev Club para aprimoramento de interfaces web.
 ---
 
 <br>
+<br>
+
+## 📸 Capturas de Tela
+
+<img src="imgTelas/tela1.png" width="700">
+<img src="imgTelas/tela2.png" width="700">
+<img src="imgTelas/tela4.png" width="700">
+<img src="imgTelas/tela5.png" width="700">
+
+👉 [Assistir vídeo completo](https://raw.githubusercontent.com/kelvimarcos/siteDelivey/main/video/videoTela.mp4)
+
+<br>
 
 ## 🛠️ Tecnologias
 
@@ -37,18 +49,6 @@ Foco em design e experiência do usuário.
 
 👉 Link para o Projeto: [https://kelvimarcos.github.io/siteDelivey/](https://kelvimarcos.github.io/siteDelivey/) <br>
 (clique aqui ou cole em seu navegador para acessar o projeto)
-
-<br>
-<br>
-
-## 📸 Capturas de Tela
-
-<img src="imgTelas/tela1.png" width="700">
-<img src="imgTelas/tela2.png" width="700">
-<img src="imgTelas/tela4.png" width="700">
-<img src="imgTelas/tela5.png" width="700">
-
-👉 [Assistir vídeo completo](https://raw.githubusercontent.com/kelvimarcos/siteDelivey/main/video/videoTela.mp4)
 
 <br>
 <br>
